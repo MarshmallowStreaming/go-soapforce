@@ -462,3 +462,7 @@ func (c *Client) SendEmail(m *Email) (*SendEmailResult, error) {
 func (c *Client) GetInfo() *LimitInfoHeader {
 	return c.soapClient.GetInfo()
 }
+
+func (c *Client) ConvertLead(request *ConvertLead) (*ConvertLeadResponse, error) {
+	return c.soapClient.ConvertLead(request)
+}
