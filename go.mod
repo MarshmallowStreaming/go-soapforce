@@ -1,4 +1,4 @@
-module github.com/tzmfreedom/go-soapforce
+module github.com/MarshmallowStreaming/go-soapforce
 
 go 1.13
 

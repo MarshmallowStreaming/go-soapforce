@@ -5,14 +5,14 @@ Salesforce SOAP API Client for golang
 ## Install
 
 ```bash
-go get github.com/tzmfreedom/go-soapforce
+go get github.com/MarshmallowStreaming/go-soapforce
 ```
 
 ## Usage
 
 import package and initialize client
 ```golang
-import "github.com/tzmfreedom/go-soapforce"
+import "github.com/MarshmallowStreaming/go-soapforce"
 
 client := soapforce.NewClient()
 ```
@@ -148,4 +148,4 @@ Just send pull request if needed or fill an issue!
 
 ## License
 
-The MIT License See [LICENSE](https://github.com/tzmfreedom/go-soapforce/blob/master/LICENSE) file.
+The MIT License See [LICENSE](https://github.com/MarshmallowStreaming/go-soapforce/blob/master/LICENSE) file.
